@@ -11,7 +11,7 @@ const navItems = [
   { id: 'knockout', label: 'Phases Finales', icon: Swords },
 ];
 
-export default function Sidebar({ activeTab, onTabChange }) {
+export default function Sidebar({ activeTab, onTabChange, user, onAuthClick, onSignOut }) {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   const handleTabClick = (id) => {
@@ -112,7 +112,27 @@ export default function Sidebar({ activeTab, onTabChange }) {
         </nav>
 
         {/* Footer */}
-        <div className="px-6 py-4 border-t border-slate-800">
+        <div className="px-6 py-4 border-t border-slate-800 space-y-2">
+          {user ? (
+            <div className="flex items-center justify-between">
+              <div className="flex-1 min-w-0">
+                <p className="text-[11px] text-slate-400 truncate">{user.email}</p>
+              </div>
+              <button
+                onClick={onSignOut}
+                className="text-slate-500 hover:text-slate-300 text-[11px] ml-2 shrink-0"
+              >
+                Déco
+              </button>
+            </div>
+          ) : (
+            <button
+              onClick={onAuthClick}
+              className="w-full text-[11px] text-slate-400 hover:text-emerald-400 transition-colors text-left"
+            >
+              Se connecter →
+            </button>
+          )}
           <p className="text-[11px] text-slate-600">v1.0.0 · Prédictions IA</p>
         </div>
       </aside>

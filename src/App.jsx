@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import Sidebar from './components/Sidebar';
+import AuthModal from './components/AuthModal';
+import { useAuth } from './hooks/useAuth';
 import DashboardTab from './tabs/DashboardTab';
 import BacktestingTab from './tabs/BacktestingTab';
 import PipelineTab from './tabs/PipelineTab';
@@ -20,11 +22,19 @@ const tabs = {
 
 function App() {
   const [activeTab, setActiveTab] = useState('dashboard');
+  const [authOpen, setAuthOpen] = useState(false);
+  const { user, signOut } = useAuth();
   const ActiveComponent = tabs[activeTab] || DashboardTab;
 
   return (
     <div className="min-h-screen bg-slate-950">
-      <Sidebar activeTab={activeTab} onTabChange={setActiveTab} />
+      <Sidebar
+        activeTab={activeTab}
+        onTabChange={setActiveTab}
+        user={user}
+        onAuthClick={() => setAuthOpen(true)}
+        onSignOut={signOut}
+      />
 
       {/* Main content area */}
       <main className="lg:pl-64 pt-14 lg:pt-0 min-h-screen">
@@ -32,6 +42,11 @@ function App() {
           <ActiveComponent />
         </div>
       </main>
+
+      <AuthModal
+        isOpen={authOpen}
+        onClose={() => setAuthOpen(false)}
+      />
     </div>
   );
 }
