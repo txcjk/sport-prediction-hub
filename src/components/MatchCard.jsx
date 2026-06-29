@@ -4,14 +4,42 @@ import MatchStats from './MatchStats';
 import { enrichWithLiveStats } from '../hooks/useLiveData';
 
 function TeamBadge({ team, liveStats }) {
+  const flagUrl = liveStats?.flag;
+  const crestUrl = liveStats?.crest;
+
   return (
     <div>
       <div className="flex items-center gap-3">
         <div
-          className="w-10 h-10 rounded-xl flex items-center justify-center text-xs font-bold text-white shadow-lg shrink-0"
-          style={{ backgroundColor: team.logoColor }}
+          className="w-10 h-10 rounded-xl flex items-center justify-center text-xs font-bold text-white shadow-lg shrink-0 overflow-hidden bg-slate-800"
         >
-          {team.name.split(' ').map(w => w[0]).join('').slice(0, 2)}
+          {flagUrl ? (
+            <img
+              src={flagUrl}
+              alt={team.name}
+              className="w-7 h-5 object-cover rounded-sm"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+            />
+          ) : crestUrl ? (
+            <img
+              src={crestUrl}
+              alt={team.name}
+              className="w-7 h-7 object-contain"
+              onError={(e) => {
+                e.target.style.display = 'none';
+                e.target.nextSibling.style.display = 'flex';
+              }}
+            />
+          ) : null}
+          <div
+            className="w-full h-full flex items-center justify-center"
+            style={{ backgroundColor: team.logoColor || '#1e293b', display: flagUrl || crestUrl ? 'none' : 'flex' }}
+          >
+            {team.name.split(' ').map(w => w[0]).join('').slice(0, 2)}
+          </div>
         </div>
         <span className="font-semibold text-slate-200 text-sm">{team.name}</span>
       </div>
