@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "generated_at": "2026-06-29T16:21:07.433962+00:00",
+    "feeds_scanned": 5,
+    "total_alerts_raw": 1,
+    "total_alerts_unique": 1
+  },
+  "alerts": [
+    {
+      "type": "return",
+      "keywords": [
+        "revient"
+      ],
+      "title": "Algérie : devant Yamal et Diomandé ! Ibrahim Maza boucle une phase de groupes de folie à la Coupe du monde 2026",
+      "url": "https://www.afrik-foot.com/algerie-devant-yamal-et-diomande-ibrahim-maza-boucle-une-phase-de-groupes-de-folie-a-la-coupe-du-monde-2026",
+      "date": "Sun, 28 Jun 2026 20:19:00 +0200",
+      "teams": [
+        "Switzerland"
+      ],
+      "source": "Foot Africa"
+    }
+  ],
+  "by_team": {
+    "Switzerland": [
+      {
+        "type": "return",
+        "keywords": [
+          "revient"
+        ],
+        "title": "Algérie : devant Yamal et Diomandé ! Ibrahim Maza boucle une phase de groupes de folie à la Coupe du monde 2026",
+        "url": "https://www.afrik-foot.com/algerie-devant-yamal-et-diomande-ibrahim-maza-boucle-une-phase-de-groupes-de-folie-a-la-coupe-du-monde-2026",
+        "date": "Sun, 28 Jun 2026 20:19:00 +0200",
+        "teams": [
+          "Switzerland"
+        ],
+        "source": "Foot Africa"
+      }
+    ]
+  }
+}
