@@ -1,16 +1,21 @@
 import { Brain, Zap } from 'lucide-react';
 import ProbabilityBar from './ProbabilityBar';
+import MatchStats from './MatchStats';
+import { enrichWithLiveStats } from '../hooks/useLiveData';
 
-function TeamBadge({ team }) {
+function TeamBadge({ team, liveStats }) {
   return (
-    <div className="flex items-center gap-3">
-      <div
-        className="w-10 h-10 rounded-xl flex items-center justify-center text-xs font-bold text-white shadow-lg shrink-0"
-        style={{ backgroundColor: team.logoColor }}
-      >
-        {team.name.split(' ').map(w => w[0]).join('').slice(0, 2)}
+    <div>
+      <div className="flex items-center gap-3">
+        <div
+          className="w-10 h-10 rounded-xl flex items-center justify-center text-xs font-bold text-white shadow-lg shrink-0"
+          style={{ backgroundColor: team.logoColor }}
+        >
+          {team.name.split(' ').map(w => w[0]).join('').slice(0, 2)}
+        </div>
+        <span className="font-semibold text-slate-200 text-sm">{team.name}</span>
       </div>
-      <span className="font-semibold text-slate-200 text-sm">{team.name}</span>
+      <MatchStats teamStats={liveStats} />
     </div>
   );
 }
@@ -22,6 +27,7 @@ function formatKickoff(isoDate) {
 
 export default function MatchCard({ match, index = 0 }) {
   const delay = 100 + (index || 0) * 80;
+  const enriched = enrichWithLiveStats([match])[0];
 
   return (
     <div
@@ -36,12 +42,12 @@ export default function MatchCard({ match, index = 0 }) {
 
       {/* Teams */}
       <div className="space-y-3 mb-4">
-        <TeamBadge team={match.homeTeam} />
+        <TeamBadge team={match.homeTeam} liveStats={enriched?.homeTeam?.liveStats} />
         <div className="flex items-center gap-3 ml-1">
           <div className="w-px h-6 bg-slate-700 ml-[19px]" />
           <span className="text-xs font-bold text-slate-500 tracking-widest">VS</span>
         </div>
-        <TeamBadge team={match.awayTeam} />
+        <TeamBadge team={match.awayTeam} liveStats={enriched?.awayTeam?.liveStats} />
       </div>
 
       {/* Odds */}
