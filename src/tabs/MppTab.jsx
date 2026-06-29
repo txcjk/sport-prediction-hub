@@ -1,6 +1,7 @@
 import { useState, useRef, useEffect } from 'react';
-import { Target, Loader2, CheckCircle, Sparkles } from 'lucide-react';
+import { Target, Loader2, CheckCircle, Sparkles, CloudSun } from 'lucide-react';
 import { todayMatches } from '../data/mockData';
+import { enrichWithLiveStats } from '../hooks/useLiveData';
 import ScoreHeatmap from '../components/ScoreHeatmap';
 import ScoreBarChart from '../components/ScoreBarChart';
 import MppAdvice from '../components/MppAdvice';
@@ -17,8 +18,14 @@ function poissonRandom(lambda) {
   return k - 1;
 }
 
-function runSimulation(homeProb, drawProb, awayProb, iterations) {
-  const totalExpectedGoals = 2.5;
+function runSimulation(homeProb, drawProb, awayProb, iterations, goalAdjustment = 0) {
+  // Ajuster le nombre total de buts attendus en fonction de la météo
+  // Base: 2.5 buts en conditions normales
+  // Pluie/orage: -20% à -30%
+  const baseGoals = 2.5;
+  const adjustedGoals = Math.max(1.0, baseGoals + (goalAdjustment / 100) * baseGoals);
+  const totalExpectedGoals = adjustedGoals;
+
   const lambdaHome = (totalExpectedGoals * (homeProb + drawProb / 2)) / 100;
   const lambdaAway = (totalExpectedGoals * (awayProb + drawProb / 2)) / 100;
 
@@ -87,7 +94,8 @@ function runSimulation(homeProb, drawProb, awayProb, iterations) {
 }
 
 export default function MppTab() {
-  const [selectedMatchId, setSelectedMatchId] = useState(todayMatches[0]?.id || 1);
+  const enriched = enrichWithLiveStats(todayMatches);
+  const [selectedMatchId, setSelectedMatchId] = useState(enriched[0]?.id || 1);
   const [probs, setProbs] = useState({ home: 42, draw: 27, away: 31 });
   const [simState, setSimState] = useState('idle');
   const [results, setResults] = useState(null);
@@ -100,13 +108,30 @@ export default function MppTab() {
     };
   }, []);
 
-  const currentMatch = todayMatches.find((m) => m.id === selectedMatchId);
+  const currentMatch = enriched.find((m) => m.id === selectedMatchId);
+
+  // Météo et ajustement pour le match courant
+  const weather = currentMatch?.homeTeam?.weather;
+  const adjustment = weather?.goal_impact || 0;
+  const homeStats = currentMatch?.homeTeam?.liveStats;
+  const awayStats = currentMatch?.awayTeam?.liveStats;
 
   const handleMatchChange = (id) => {
-    const match = todayMatches.find((m) => m.id === Number(id));
+    const match = enriched.find((m) => m.id === Number(id));
     if (match) {
       setSelectedMatchId(match.id);
-      setProbs({ ...match.aiProbs });
+      // Utiliser les aiProbs du match, ajustées par la météo/forme
+      const baseProbs = { ...match.aiProbs };
+      // Ajustement fin basé sur la forme si dispo
+      const hStats = match.homeTeam?.liveStats;
+      const aStats = match.awayTeam?.liveStats;
+      if (hStats?.win_rate && aStats?.win_rate && hStats?.win_rate + aStats?.win_rate > 0) {
+        const ratio = hStats.win_rate / (hStats.win_rate + aStats.win_rate);
+        baseProbs.home = Math.round(baseProbs.home * (0.7 + 0.3 * ratio));
+        baseProbs.away = Math.round(baseProbs.away * (0.7 + 0.3 * (1 - ratio)));
+        baseProbs.draw = 100 - baseProbs.home - baseProbs.away;
+      }
+      setProbs(baseProbs);
       setResults(null);
       setSimState('idle');
     }
@@ -136,7 +161,7 @@ export default function MppTab() {
     // Short artificial delay so spinner is visible
     await new Promise((r) => setTimeout(r, 400));
 
-    const res = runSimulation(probs.home, probs.draw, probs.away, 10000);
+    const res = runSimulation(probs.home, probs.draw, probs.away, 10000, adjustment);
 
     setResults(res);
     setSimState('done');
@@ -216,6 +241,24 @@ export default function MppTab() {
               className={inputClass}
             />
           </div>
+        </div>
+
+        {/* Infos météo + forme */}
+        <div className="flex flex-col gap-1 text-[10px] text-slate-500">
+          {weather?.label && (
+            <span className="flex items-center gap-1">
+              <CloudSun size={12} className="text-slate-400" />
+              {weather.label} · {adjustment}% buts
+            </span>
+          )}
+          {homeStats?.form && (
+            <span className="flex items-center gap-1">
+              <span className="font-mono text-[9px]">{homeStats.form}</span>
+              vs
+              <span className="font-mono text-[9px]">{awayStats?.form || '-'}</span>
+              <span className="text-slate-600">(forme)</span>
+            </span>
+          )}
         </div>
 
         {/* Run button */}
