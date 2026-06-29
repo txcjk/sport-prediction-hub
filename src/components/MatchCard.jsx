@@ -53,9 +53,12 @@ function formatKickoff(isoDate) {
   return d.toLocaleTimeString('fr-FR', { hour: '2-digit', minute: '2-digit' });
 }
 
-export default function MatchCard({ match, index = 0 }) {
+export default function MatchCard({ match, index = 0, enriched }) {
   const delay = 100 + (index || 0) * 80;
-  const enriched = enrichWithLiveStats([match])[0];
+
+  // liveStats vient du match enrichi par DashboardTab
+  const homeStats = enriched?.homeTeam?.liveStats || match.homeTeam?.liveStats;
+  const awayStats = enriched?.awayTeam?.liveStats || match.awayTeam?.liveStats;
 
   return (
     <div
@@ -70,12 +73,12 @@ export default function MatchCard({ match, index = 0 }) {
 
       {/* Teams */}
       <div className="space-y-3 mb-4">
-        <TeamBadge team={match.homeTeam} liveStats={enriched?.homeTeam?.liveStats} />
+        <TeamBadge team={match.homeTeam} liveStats={homeStats} />
         <div className="flex items-center gap-3 ml-1">
           <div className="w-px h-6 bg-slate-700 ml-[19px]" />
           <span className="text-xs font-bold text-slate-500 tracking-widest">VS</span>
         </div>
-        <TeamBadge team={match.awayTeam} liveStats={enriched?.awayTeam?.liveStats} />
+        <TeamBadge team={match.awayTeam} liveStats={awayStats} />
       </div>
 
       {/* Odds */}

@@ -72,7 +72,7 @@ export default function DashboardTab() {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4">
           {enriched.map((match, index) => (
-            <MatchCard key={match.id} match={match} index={index} />
+            <MatchCard key={match.id} match={match} index={index} enriched={match} />
           ))}
         </div>
       </div>
