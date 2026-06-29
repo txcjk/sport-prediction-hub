@@ -1,4 +1,4 @@
-const CACHE = 'sph-v1';
+const CACHE = 'sph-v2';
 const ASSETS = ['/'];
 
 self.addEventListener('install', event => {
