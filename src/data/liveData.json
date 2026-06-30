@@ -1,13 +1,13 @@
 {
   "meta": {
-    "generated_at": "2026-06-29T16:08:25.879754+00:00",
+    "generated_at": "2026-06-30T07:03:54.215601+00:00",
     "sources": [
       "football-data.org",
       "worldcup26.ir"
     ],
     "match_count": 104,
     "team_count": 48,
-    "last_enhanced": "2026-06-29T16:15:58.142524+00:00",
+    "last_enhanced": "2026-06-30T07:04:35.394555+00:00",
     "enhancement_sources": [
       "open-meteo",
       "google-news"
@@ -245,13 +245,13 @@
         "crest": "https://crests.football-data.org/761.svg",
         "flag": "https://flagcdn.com/w80/py.png",
         "stats": {
-          "form": "LWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 0.67,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 2,
-          "goals_against": 4,
-          "points": 4
+          "form": "LWDW",
+          "win_rate": 50.0,
+          "avg_goals_scored": 1.75,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 7,
+          "goals_against": 8,
+          "points": 7
         }
       },
       "score": {
@@ -368,13 +368,13 @@
         "crest": "https://crests.football-data.org/764.svg",
         "flag": "https://flagcdn.com/w80/br.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 0.33,
-          "goals_for": 7,
-          "goals_against": 1,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.25,
+          "avg_goals_conceded": 0.5,
+          "goals_for": 9,
+          "goals_against": 2,
+          "points": 10
         }
       },
       "awayTeam": {
@@ -385,13 +385,13 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "flag": "https://flagcdn.com/w80/ma.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.0,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 6,
-          "goals_against": 3,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.5,
+          "avg_goals_conceded": 1.5,
+          "goals_for": 10,
+          "goals_against": 6,
+          "points": 10
         }
       },
       "score": {
@@ -578,12 +578,12 @@
         "crest": "https://crests.football-data.org/759.svg",
         "flag": "https://flagcdn.com/w80/de.png",
         "stats": {
-          "form": "WWL",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "WWLL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.5,
+          "avg_goals_conceded": 2.25,
+          "goals_for": 14,
+          "goals_against": 9,
           "points": 6
         }
       },
@@ -648,12 +648,12 @@
         "crest": "https://crests.football-data.org/8601.svg",
         "flag": "https://flagcdn.com/w80/nl.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "DWWL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.25,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 13,
+          "goals_against": 8,
           "points": 7
         }
       },
@@ -665,12 +665,12 @@
         "crest": "https://crests.football-data.org/766.svg",
         "flag": "https://flagcdn.com/w80/jp.png",
         "stats": {
-          "form": "DWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 7,
-          "goals_against": 3,
+          "form": "DWDL",
+          "win_rate": 25.0,
+          "avg_goals_scored": 2.0,
+          "avg_goals_conceded": 1.25,
+          "goals_for": 8,
+          "goals_against": 5,
           "points": 5
         }
       },
@@ -2050,13 +2050,13 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "flag": "https://flagcdn.com/w80/ma.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.0,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 6,
-          "goals_against": 3,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.5,
+          "avg_goals_conceded": 1.5,
+          "goals_for": 10,
+          "goals_against": 6,
+          "points": 10
         }
       },
       "score": {
@@ -2103,13 +2103,13 @@
         "crest": "https://crests.football-data.org/764.svg",
         "flag": "https://flagcdn.com/w80/br.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 0.33,
-          "goals_for": 7,
-          "goals_against": 1,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.25,
+          "avg_goals_conceded": 0.5,
+          "goals_for": 9,
+          "goals_against": 2,
+          "points": 10
         }
       },
       "awayTeam": {
@@ -2190,13 +2190,13 @@
         "crest": "https://crests.football-data.org/761.svg",
         "flag": "https://flagcdn.com/w80/py.png",
         "stats": {
-          "form": "LWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 0.67,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 2,
-          "goals_against": 4,
-          "points": 4
+          "form": "LWDW",
+          "win_rate": 50.0,
+          "avg_goals_scored": 1.75,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 7,
+          "goals_against": 8,
+          "points": 7
         }
       },
       "score": {
@@ -2243,12 +2243,12 @@
         "crest": "https://crests.football-data.org/8601.svg",
         "flag": "https://flagcdn.com/w80/nl.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "DWWL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.25,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 13,
+          "goals_against": 8,
           "points": 7
         }
       },
@@ -2313,12 +2313,12 @@
         "crest": "https://crests.football-data.org/759.svg",
         "flag": "https://flagcdn.com/w80/de.png",
         "stats": {
-          "form": "WWL",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "WWLL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.5,
+          "avg_goals_conceded": 2.25,
+          "goals_for": 14,
+          "goals_against": 9,
           "points": 6
         }
       },
@@ -2470,12 +2470,12 @@
         "crest": "https://crests.football-data.org/766.svg",
         "flag": "https://flagcdn.com/w80/jp.png",
         "stats": {
-          "form": "DWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 7,
-          "goals_against": 3,
+          "form": "DWDL",
+          "win_rate": 25.0,
+          "avg_goals_scored": 2.0,
+          "avg_goals_conceded": 1.25,
+          "goals_for": 8,
+          "goals_against": 5,
           "points": 5
         }
       },
@@ -3495,13 +3495,13 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "flag": "https://flagcdn.com/w80/ma.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.0,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 6,
-          "goals_against": 3,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.5,
+          "avg_goals_conceded": 1.5,
+          "goals_for": 10,
+          "goals_against": 6,
+          "points": 10
         }
       },
       "awayTeam": {
@@ -3582,13 +3582,13 @@
         "crest": "https://crests.football-data.org/764.svg",
         "flag": "https://flagcdn.com/w80/br.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 0.33,
-          "goals_for": 7,
-          "goals_against": 1,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.25,
+          "avg_goals_conceded": 0.5,
+          "goals_for": 9,
+          "goals_against": 2,
+          "points": 10
         }
       },
       "score": {
@@ -3785,12 +3785,12 @@
         "crest": "https://crests.football-data.org/759.svg",
         "flag": "https://flagcdn.com/w80/de.png",
         "stats": {
-          "form": "WWL",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "WWLL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.5,
+          "avg_goals_conceded": 2.25,
+          "goals_for": 14,
+          "goals_against": 9,
           "points": 6
         }
       },
@@ -3925,12 +3925,12 @@
         "crest": "https://crests.football-data.org/8601.svg",
         "flag": "https://flagcdn.com/w80/nl.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "DWWL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.25,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 13,
+          "goals_against": 8,
           "points": 7
         }
       },
@@ -3978,12 +3978,12 @@
         "crest": "https://crests.football-data.org/766.svg",
         "flag": "https://flagcdn.com/w80/jp.png",
         "stats": {
-          "form": "DWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 7,
-          "goals_against": 3,
+          "form": "DWDL",
+          "win_rate": 25.0,
+          "avg_goals_scored": 2.0,
+          "avg_goals_conceded": 1.25,
+          "goals_for": 8,
+          "goals_against": 5,
           "points": 5
         }
       },
@@ -4118,13 +4118,13 @@
         "crest": "https://crests.football-data.org/761.svg",
         "flag": "https://flagcdn.com/w80/py.png",
         "stats": {
-          "form": "LWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 0.67,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 2,
-          "goals_against": 4,
-          "points": 4
+          "form": "LWDW",
+          "win_rate": 50.0,
+          "avg_goals_scored": 1.75,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 7,
+          "goals_against": 8,
+          "points": 7
         }
       },
       "awayTeam": {
@@ -5086,9 +5086,9 @@
       "matchday": null,
       "date": "06/29/2026 12:00",
       "utc_date": "2026-06-29T17:00:00Z",
-      "finished": false,
-      "status": "TIMED",
-      "time_elapsed": "notstarted",
+      "finished": true,
+      "status": "FINISHED",
+      "time_elapsed": "finished",
       "homeTeam": {
         "id": 764,
         "name": "Brazil",
@@ -5097,13 +5097,13 @@
         "crest": "https://crests.football-data.org/764.svg",
         "flag": "https://flagcdn.com/w80/br.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 0.33,
-          "goals_for": 7,
-          "goals_against": 1,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.25,
+          "avg_goals_conceded": 0.5,
+          "goals_for": 9,
+          "goals_against": 2,
+          "points": 10
         }
       },
       "awayTeam": {
@@ -5114,39 +5114,39 @@
         "crest": "https://crests.football-data.org/766.svg",
         "flag": "https://flagcdn.com/w80/jp.png",
         "stats": {
-          "form": "DWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 2.33,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 7,
-          "goals_against": 3,
+          "form": "DWDL",
+          "win_rate": 25.0,
+          "avg_goals_scored": 2.0,
+          "avg_goals_conceded": 1.25,
+          "goals_for": 8,
+          "goals_against": 5,
           "points": 5
         }
       },
       "score": {
-        "home": "null",
-        "away": "null",
-        "winner": null,
-        "ht_home": null,
-        "ht_away": null
+        "home": 2,
+        "away": 1,
+        "winner": "HOME_TEAM",
+        "ht_home": 0,
+        "ht_away": 1
       },
       "scorers": {
-        "home": "null",
-        "away": "null"
+        "home": "{\"Casemiro 56'\",\"Gabriel Martinelli 90+5'\"}",
+        "away": "{\"Kaishū Sano 29'\"}"
       },
       "weather": {
-        "label": "⛈️ Orage / Pluie forte",
-        "goal_impact": -30,
-        "fairness_impact": 5,
-        "temp_kickoff": 35.1,
+        "label": "☀️ Dégagé",
+        "goal_impact": 0,
+        "fairness_impact": 0,
+        "temp_kickoff": 20,
         "precip_mm": 0,
-        "wind_kmh": 36.5
+        "wind_kmh": 0
       },
       "adjustment": {
-        "home": 2.5,
-        "draw": 1.25,
-        "away": -2.5,
-        "goals": -30
+        "home": 0,
+        "draw": 0,
+        "away": 0,
+        "goals": 0
       }
     },
     {
@@ -5156,9 +5156,9 @@
       "matchday": null,
       "date": "06/29/2026 16:30",
       "utc_date": "2026-06-29T20:30:00Z",
-      "finished": false,
-      "status": "TIMED",
-      "time_elapsed": "notstarted",
+      "finished": true,
+      "status": "FINISHED",
+      "time_elapsed": "finished",
       "homeTeam": {
         "id": 759,
         "name": "Germany",
@@ -5167,12 +5167,12 @@
         "crest": "https://crests.football-data.org/759.svg",
         "flag": "https://flagcdn.com/w80/de.png",
         "stats": {
-          "form": "WWL",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "WWLL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.5,
+          "avg_goals_conceded": 2.25,
+          "goals_for": 14,
+          "goals_against": 9,
           "points": 6
         }
       },
@@ -5184,39 +5184,39 @@
         "crest": "https://crests.football-data.org/761.svg",
         "flag": "https://flagcdn.com/w80/py.png",
         "stats": {
-          "form": "LWD",
-          "win_rate": 33.3,
-          "avg_goals_scored": 0.67,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 2,
-          "goals_against": 4,
-          "points": 4
+          "form": "LWDW",
+          "win_rate": 50.0,
+          "avg_goals_scored": 1.75,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 7,
+          "goals_against": 8,
+          "points": 7
         }
       },
       "score": {
-        "home": "null",
-        "away": "null",
-        "winner": null,
-        "ht_home": null,
-        "ht_away": null
+        "home": 4,
+        "away": 5,
+        "winner": "AWAY_TEAM",
+        "ht_home": 0,
+        "ht_away": 1
       },
       "scorers": {
-        "home": "null",
-        "away": "null"
+        "home": "{\"Kai Havertz 54'\"}",
+        "away": "{\"Khvliv Ansisv 42'\"}"
       },
       "weather": {
-        "label": "⛈️ Orage / Pluie forte",
-        "goal_impact": -30,
-        "fairness_impact": 5,
-        "temp_kickoff": 38.5,
+        "label": "☀️ Dégagé",
+        "goal_impact": 0,
+        "fairness_impact": 0,
+        "temp_kickoff": 20,
         "precip_mm": 0,
-        "wind_kmh": 36.5
+        "wind_kmh": 0
       },
       "adjustment": {
-        "home": 2.5,
-        "draw": 1.25,
-        "away": -2.5,
-        "goals": -30
+        "home": 0,
+        "draw": 0,
+        "away": 0,
+        "goals": 0
       }
     },
     {
@@ -5226,9 +5226,9 @@
       "matchday": null,
       "date": "06/29/2026 19:00",
       "utc_date": "2026-06-30T01:00:00Z",
-      "finished": false,
-      "status": "TIMED",
-      "time_elapsed": "notstarted",
+      "finished": true,
+      "status": "FINISHED",
+      "time_elapsed": "finished",
       "homeTeam": {
         "id": 8601,
         "name": "Netherlands",
@@ -5237,12 +5237,12 @@
         "crest": "https://crests.football-data.org/8601.svg",
         "flag": "https://flagcdn.com/w80/nl.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 3.33,
-          "avg_goals_conceded": 1.33,
-          "goals_for": 10,
-          "goals_against": 4,
+          "form": "DWWL",
+          "win_rate": 50.0,
+          "avg_goals_scored": 3.25,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 13,
+          "goals_against": 8,
           "points": 7
         }
       },
@@ -5254,39 +5254,39 @@
         "crest": "https://crests.football-data.org/morocco.svg",
         "flag": "https://flagcdn.com/w80/ma.png",
         "stats": {
-          "form": "DWW",
-          "win_rate": 66.7,
-          "avg_goals_scored": 2.0,
-          "avg_goals_conceded": 1.0,
-          "goals_for": 6,
-          "goals_against": 3,
-          "points": 7
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.5,
+          "avg_goals_conceded": 1.5,
+          "goals_for": 10,
+          "goals_against": 6,
+          "points": 10
         }
       },
       "score": {
-        "home": "0",
-        "away": "0",
-        "winner": null,
-        "ht_home": null,
-        "ht_away": null
+        "home": 3,
+        "away": 4,
+        "winner": "AWAY_TEAM",
+        "ht_home": 0,
+        "ht_away": 0
       },
       "scorers": {
-        "home": "null",
-        "away": "null"
+        "home": "{\"Kvdi Khakpv 72'\"}",
+        "away": "{\"Issa Diop 90+1'\"}"
       },
       "weather": {
-        "label": "⛈️ Orage / Pluie forte",
-        "goal_impact": -30,
-        "fairness_impact": 5,
-        "temp_kickoff": 34.0,
+        "label": "☀️ Dégagé",
+        "goal_impact": 0,
+        "fairness_impact": 0,
+        "temp_kickoff": 20,
         "precip_mm": 0,
-        "wind_kmh": 36.5
+        "wind_kmh": 0
       },
       "adjustment": {
-        "home": 2.5,
-        "draw": 1.25,
-        "away": -2.5,
-        "goals": -30
+        "home": 0,
+        "draw": 0,
+        "away": 0,
+        "goals": 0
       }
     },
     {
@@ -5334,8 +5334,8 @@
         }
       },
       "score": {
-        "home": "0",
-        "away": "0",
+        "home": "null",
+        "away": "null",
         "winner": null,
         "ht_home": null,
         "ht_away": null
@@ -5348,9 +5348,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 34.2,
-        "precip_mm": 2.2,
-        "wind_kmh": 27.5
+        "temp_kickoff": 33.4,
+        "precip_mm": 0,
+        "wind_kmh": 25.5
       },
       "adjustment": {
         "home": 2.5,
@@ -5418,9 +5418,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 35.0,
-        "precip_mm": 2.2,
-        "wind_kmh": 27.5
+        "temp_kickoff": 34.6,
+        "precip_mm": 0,
+        "wind_kmh": 25.5
       },
       "alerts": {
         "homeTeam": [
@@ -5501,9 +5501,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 33.8,
-        "precip_mm": 2.2,
-        "wind_kmh": 27.5
+        "temp_kickoff": 33.1,
+        "precip_mm": 0,
+        "wind_kmh": 25.5
       },
       "adjustment": {
         "home": 2.5,
@@ -5634,9 +5634,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 35.1,
-        "precip_mm": 3.4,
-        "wind_kmh": 39.5
+        "temp_kickoff": 33.7,
+        "precip_mm": 2.4,
+        "wind_kmh": 31.4
       },
       "adjustment": {
         "home": 2.5,
@@ -5768,8 +5768,8 @@
         "goal_impact": -30,
         "fairness_impact": 5,
         "temp_kickoff": 34.9,
-        "precip_mm": 0.3,
-        "wind_kmh": 36.9
+        "precip_mm": 0.7,
+        "wind_kmh": 37.6
       },
       "adjustment": {
         "home": 2.5,
@@ -5837,9 +5837,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 34.4,
-        "precip_mm": 0.3,
-        "wind_kmh": 36.9
+        "temp_kickoff": 34.1,
+        "precip_mm": 0.7,
+        "wind_kmh": 37.6
       },
       "adjustment": {
         "home": 2.5,
@@ -5907,9 +5907,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 32.3,
-        "precip_mm": 0.3,
-        "wind_kmh": 36.9
+        "temp_kickoff": 31.8,
+        "precip_mm": 0.7,
+        "wind_kmh": 37.6
       },
       "adjustment": {
         "home": 2.5,
@@ -5977,9 +5977,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 38.7,
-        "precip_mm": 0,
-        "wind_kmh": 37.1
+        "temp_kickoff": 38.5,
+        "precip_mm": 0.2,
+        "wind_kmh": 36.2
       },
       "adjustment": {
         "home": 2.5,
@@ -6110,9 +6110,9 @@
         "label": "⛈️ Orage / Pluie forte",
         "goal_impact": -30,
         "fairness_impact": 5,
-        "temp_kickoff": 34.2,
-        "precip_mm": 0,
-        "wind_kmh": 37.1
+        "temp_kickoff": 31.3,
+        "precip_mm": 0.2,
+        "wind_kmh": 36.2
       },
       "adjustment": {
         "home": 2.5,
@@ -6126,11 +6126,11 @@
       "type": "last16",
       "group": null,
       "matchday": null,
-      "date": "2026-07-04T17:00:00Z",
+      "date": "07/04/2026 12:00",
       "utc_date": "2026-07-04T17:00:00Z",
       "finished": false,
       "status": "TIMED",
-      "time_elapsed": "",
+      "time_elapsed": "notstarted",
       "homeTeam": {
         "id": 828,
         "name": "Canada",
@@ -6149,39 +6149,46 @@
         }
       },
       "awayTeam": {
-        "id": null,
-        "name": null,
-        "shortName": null,
-        "tla": null,
-        "crest": null,
-        "flag": null,
+        "id": 815,
+        "name": "Morocco",
+        "shortName": "Morocco",
+        "tla": "MAR",
+        "crest": "https://crests.football-data.org/morocco.svg",
+        "flag": "https://flagcdn.com/w80/ma.png",
         "stats": {
-          "form": "-",
-          "win_rate": 0,
-          "avg_goals_scored": 0,
-          "avg_goals_conceded": 0,
-          "goals_for": 0,
-          "goals_against": 0,
-          "points": 0
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.5,
+          "avg_goals_conceded": 1.5,
+          "goals_for": 10,
+          "goals_against": 6,
+          "points": 10
         }
       },
       "score": {
-        "home": null,
-        "away": null,
+        "home": "0",
+        "away": "0",
         "winner": null,
         "ht_home": null,
         "ht_away": null
       },
       "scorers": {
-        "home": null,
-        "away": null
+        "home": "null",
+        "away": "null"
       },
-      "weather": null,
+      "weather": {
+        "label": "⛈️ Orage / Pluie forte",
+        "goal_impact": -30,
+        "fairness_impact": 5,
+        "temp_kickoff": 38.4,
+        "precip_mm": 0.9,
+        "wind_kmh": 32.6
+      },
       "adjustment": {
-        "home": 0,
-        "draw": 0,
-        "away": 0,
-        "goals": 0
+        "home": 2.5,
+        "draw": 1.25,
+        "away": -2.5,
+        "goals": -30
       }
     },
     {
@@ -6195,20 +6202,20 @@
       "status": "TIMED",
       "time_elapsed": "",
       "homeTeam": {
-        "id": null,
-        "name": null,
-        "shortName": null,
-        "tla": null,
-        "crest": null,
-        "flag": null,
+        "id": 761,
+        "name": "Paraguay",
+        "shortName": "Paraguay",
+        "tla": "PAR",
+        "crest": "https://crests.football-data.org/761.svg",
+        "flag": "https://flagcdn.com/w80/py.png",
         "stats": {
-          "form": "-",
-          "win_rate": 0,
-          "avg_goals_scored": 0,
-          "avg_goals_conceded": 0,
-          "goals_for": 0,
-          "goals_against": 0,
-          "points": 0
+          "form": "LWDW",
+          "win_rate": 50.0,
+          "avg_goals_scored": 1.75,
+          "avg_goals_conceded": 2.0,
+          "goals_for": 7,
+          "goals_against": 8,
+          "points": 7
         }
       },
       "awayTeam": {
@@ -6258,20 +6265,20 @@
       "status": "TIMED",
       "time_elapsed": "",
       "homeTeam": {
-        "id": null,
-        "name": null,
-        "shortName": null,
-        "tla": null,
-        "crest": null,
-        "flag": null,
+        "id": 764,
+        "name": "Brazil",
+        "shortName": "Brazil",
+        "tla": "BRA",
+        "crest": "https://crests.football-data.org/764.svg",
+        "flag": "https://flagcdn.com/w80/br.png",
         "stats": {
-          "form": "-",
-          "win_rate": 0,
-          "avg_goals_scored": 0,
-          "avg_goals_conceded": 0,
-          "goals_for": 0,
-          "goals_against": 0,
-          "points": 0
+          "form": "DWWW",
+          "win_rate": 75.0,
+          "avg_goals_scored": 2.25,
+          "avg_goals_conceded": 0.5,
+          "goals_for": 9,
+          "goals_against": 2,
+          "points": 10
         }
       },
       "awayTeam": {
@@ -7635,6 +7642,20 @@
     ],
     "GROUP_D": [
       {
+        "team_id": 761,
+        "team_name": "Paraguay",
+        "tla": "PAR",
+        "crest": "https://crests.football-data.org/761.svg",
+        "played": 4,
+        "wins": 2,
+        "draws": 1,
+        "losses": 1,
+        "goals_for": 7,
+        "goals_against": 8,
+        "goal_diff": -1,
+        "points": 7
+      },
+      {
         "team_id": 771,
         "team_name": "United States",
         "tla": "USA",
@@ -7663,20 +7684,6 @@
         "points": 4
       },
       {
-        "team_id": 761,
-        "team_name": "Paraguay",
-        "tla": "PAR",
-        "crest": "https://crests.football-data.org/761.svg",
-        "played": 3,
-        "wins": 1,
-        "draws": 1,
-        "losses": 1,
-        "goals_for": 2,
-        "goals_against": 4,
-        "goal_diff": -2,
-        "points": 4
-      },
-      {
         "team_id": 803,
         "team_name": "Turkey",
         "tla": "TUR",
@@ -7697,28 +7704,28 @@
         "team_name": "Brazil",
         "tla": "BRA",
         "crest": "https://crests.football-data.org/764.svg",
-        "played": 3,
-        "wins": 2,
+        "played": 4,
+        "wins": 3,
         "draws": 1,
         "losses": 0,
-        "goals_for": 7,
-        "goals_against": 1,
-        "goal_diff": 6,
-        "points": 7
+        "goals_for": 9,
+        "goals_against": 2,
+        "goal_diff": 7,
+        "points": 10
       },
       {
         "team_id": 815,
         "team_name": "Morocco",
         "tla": "MAR",
         "crest": "https://crests.football-data.org/morocco.svg",
-        "played": 3,
-        "wins": 2,
+        "played": 4,
+        "wins": 3,
         "draws": 1,
         "losses": 0,
-        "goals_for": 6,
-        "goals_against": 3,
-        "goal_diff": 3,
-        "points": 7
+        "goals_for": 10,
+        "goals_against": 6,
+        "goal_diff": 4,
+        "points": 10
       },
       {
         "team_id": 8873,
@@ -7755,13 +7762,13 @@
         "team_name": "Germany",
         "tla": "GER",
         "crest": "https://crests.football-data.org/759.svg",
-        "played": 3,
+        "played": 4,
         "wins": 2,
         "draws": 0,
-        "losses": 1,
-        "goals_for": 10,
-        "goals_against": 4,
-        "goal_diff": 6,
+        "losses": 2,
+        "goals_for": 14,
+        "goals_against": 9,
+        "goal_diff": 5,
         "points": 6
       },
       {
@@ -7813,13 +7820,13 @@
         "team_name": "Netherlands",
         "tla": "NED",
         "crest": "https://crests.football-data.org/8601.svg",
-        "played": 3,
+        "played": 4,
         "wins": 2,
         "draws": 1,
-        "losses": 0,
-        "goals_for": 10,
-        "goals_against": 4,
-        "goal_diff": 6,
+        "losses": 1,
+        "goals_for": 13,
+        "goals_against": 8,
+        "goal_diff": 5,
         "points": 7
       },
       {
@@ -7827,13 +7834,13 @@
         "team_name": "Japan",
         "tla": "JPN",
         "crest": "https://crests.football-data.org/766.svg",
-        "played": 3,
+        "played": 4,
         "wins": 1,
         "draws": 2,
-        "losses": 0,
-        "goals_for": 7,
-        "goals_against": 3,
-        "goal_diff": 4,
+        "losses": 1,
+        "goals_for": 8,
+        "goals_against": 5,
+        "goal_diff": 3,
         "points": 5
       },
       {
