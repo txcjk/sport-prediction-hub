@@ -1,9 +1,9 @@
 {
   "meta": {
-    "generated_at": "2026-06-30T07:04:02.495520+00:00",
+    "generated_at": "2026-07-01T07:03:31.646782+00:00",
     "feeds_scanned": 5,
-    "total_alerts_raw": 2,
-    "total_alerts_unique": 2
+    "total_alerts_raw": 1,
+    "total_alerts_unique": 1
   },
   "alerts": [
     {
@@ -19,37 +19,9 @@
         "USA"
       ],
       "source": "Le Monde CDM"
-    },
-    {
-      "type": "injury",
-      "keywords": [
-        "absent"
-      ],
-      "title": "Angleterre – RDC : Tuchel face à sérieux un casse-tête avant son 16e de finale de la Coupe du monde 2026",
-      "url": "https://www.afrik-foot.com/angleterre-rdc-tuchel-face-a-serieux-un-casse-tete-avant-son-16e-de-finale-de-la-coupe-du-monde-2026",
-      "date": "Mon, 29 Jun 2026 20:55:17 +0200",
-      "teams": [
-        "DR Congo"
-      ],
-      "source": "Foot Africa"
     }
   ],
   "by_team": {
-    "DR Congo": [
-      {
-        "type": "injury",
-        "keywords": [
-          "absent"
-        ],
-        "title": "Angleterre – RDC : Tuchel face à sérieux un casse-tête avant son 16e de finale de la Coupe du monde 2026",
-        "url": "https://www.afrik-foot.com/angleterre-rdc-tuchel-face-a-serieux-un-casse-tete-avant-son-16e-de-finale-de-la-coupe-du-monde-2026",
-        "date": "Mon, 29 Jun 2026 20:55:17 +0200",
-        "teams": [
-          "DR Congo"
-        ],
-        "source": "Foot Africa"
-      }
-    ],
     "USA": [
       {
         "type": "return",
